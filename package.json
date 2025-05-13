@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "readline-sync": "^1.4.10"
+  }
+}
