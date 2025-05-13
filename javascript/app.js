@@ -1,5 +1,8 @@
 const readline = require('readline-sync');
-
+const dayjs = require('dayjs');
+const { getAllItems, getItemById } = require('./services/itemService');
+const { getActiveRentalsForItem, isItemAvailable, addRental } = require('./services/rentalService');
+const { isValidDateRange } = require('./utils/dateUtils');
 
 function showMenu() {
   console.log('\n=== Application de Location ===');

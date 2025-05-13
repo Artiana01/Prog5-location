@@ -1,5 +1,5 @@
 [
-  { "id": 1, "name": "voiture" },
-  { "id": 2, "name": "Maison" },
+  { "id": 1, "name": "Vélo" },
+  { "id": 2, "name": "Trottinette" },
   { "id": 3, "name": "Appareil photo" }
 ]
